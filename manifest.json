@@ -1,0 +1,19 @@
+{
+  "manifest_version": 2,
+  "name": "Redirect Microsoft's documentation to English",
+  "description": "Changes Microsoft's documentation to English by redirecting it to /en-us/ URL, regardless of the browser language.",
+  "version": "0.1.0",
+  "author": "Marcin Engelmann <mengelmann@octivi.com>",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://docs.microsoft.com/*",
+    "*://azure.microsoft.com/*"
+  ]
+}
