@@ -1,9 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Redirect Microsoft's documentation to English",
-  "description": "Changes Microsoft's documentation to English by redirecting it to /en-us/ URL, regardless of the browser language.",
+  "name": "Microsoft's documentation in English",
+  "description": "Changes Microsoft's documentation to English by redirecting to /en-us/ URL.",
   "version": "0.2.0",
   "author": "Marcin Engelmann <mengelmann@octivi.com>",
+  "homepage_url": "https://github.com/octivi/browser-extension-english-docs",
   "background": {
     "scripts": [
       "background.js"
